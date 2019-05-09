@@ -1,0 +1,45 @@
+@import './variables';
+
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    width:100%;
+}
+.container{
+    background-color: $firstBackground;
+    width: 100%;
+    height: 100vh;
+}
+
+.row{
+    display: inline-block;
+    width: 100%;
+}
+
+.info{
+    background-image: linear-gradient(316deg, #4062bb 0%, #5200ae 74%);
+    opacity: 0.9;
+    width: 68%;
+    float: left;
+    min-height: 98vh;
+}
+
+.form-container{
+    float: right;
+    width: 32%;
+    background: black;
+}
+
+.info-heading{
+    font-size: 52px;
+    margin-top:200px;
+    font-weight: lighter;
+    line-height: 56px;
+    letter-spacing: 0;
+    margin-left: 15%;
+    padding: 10px;
+    width: 40%;
+    color: $firstHeading;
+}
