@@ -27,9 +27,9 @@ body {
 }
 
 .form-container {
+  margin-top: 10%;
   float: right;
   width: 32%;
-  background: black;
 }
 
 .info-heading {
@@ -79,5 +79,78 @@ body {
   border: 2px solid #fff;
   background: transparent;
   color: #fff;
+}
+
+.form {
+  margin: 0 auto;
+  padding: 0px 36px;
+}
+
+.form-heading {
+  font-size: 38px;
+  text-align: center;
+  color: #451374;
+  margin-bottom: 17px;
+}
+
+.form-paragraph {
+  text-align: center;
+  font-size: 14px;
+  line-height: 19px;
+  margin: 0px 0px 16px;
+  color: #2e3c4d;
+}
+
+.form-input {
+  margin-bottom: 18px;
+  margin-top: 5px;
+  width: 100%;
+  border-right: transparent;
+  border-left: transparent;
+  border-top: transparent;
+  border-bottom: 2px solid #2e3c4d;
+  outline: none;
+  background: transparent;
+  padding: 7px;
+  vertical-align: middle;
+  line-height: 1.3;
+  color: #451374;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+}
+
+.form-input:focus {
+  border-bottom: 2px solid #451374;
+}
+
+i {
+  color: #2e3c4d;
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+b {
+  font-size: 14px;
+  color: #451374;
+  margin-left: 2px;
+}
+
+.register-btn {
+  padding: 9px 164px;
+  line-height: 19px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  color: #ffffffd6;
+  background: #451374;
+  border: 2px solid #451374;
+  border-radius: 4px;
+}
+
+a {
+  font-size: 14px;
+  color: #451374;
+  margin-left: 2px;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
 }
 /*# sourceMappingURL=style.css.map */

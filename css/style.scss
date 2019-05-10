@@ -27,9 +27,10 @@ body{
 }
 
 .form-container{
+    margin-top: 10%;
     float: right;
     width: 32%;
-    background: black;
+   
 }
 
 .info-heading{
@@ -67,4 +68,60 @@ body{
     border:2px solid $secondBackground;
     background: $thirdBtn;
     color:#fff;
+}
+
+.form{
+    margin: 0 auto;
+    padding: 0px 36px;
+}
+
+.form-heading{
+    font-size: 38px;
+    text-align: center;
+    color:#451374;
+    margin-bottom: 17px;
+}
+
+.form-paragraph{
+    text-align: center;
+    font-size:14px;
+    line-height: 19px;
+    margin: 0px 0px 16px;
+    color:hsl(213,25%,24%);
+}
+
+.form-input{
+    @include input;
+    &:focus{
+        border-bottom: 2px solid $firstColor;
+      }
+}
+
+i{
+    color:hsl(213,25%,24%);
+    font-size:14px;
+    margin-left: 5px;
+}
+
+b{
+    font-size:14px;
+    color:$firstColor;
+    margin-left: 2px;
+}
+
+.register-btn{
+    padding: 9px 164px;
+    line-height: 19px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color:#ffffffd6;
+     background: $firstColor;
+     border: 2px solid $firstColor;
+     border-radius: 4px;
+}
+a{
+    font-size:14px;
+    color:$firstColor;
+    margin-left: 2px;
+    text-decoration-line: none;
 }
