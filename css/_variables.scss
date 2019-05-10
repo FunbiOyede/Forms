@@ -17,3 +17,24 @@ $backgroundGradients: linear-gradient(315 deg, $thirdBackground 0%, $fourthBackg
 
 // heading colors
 $firstHeading:rgb(255, 241, 241);
+
+//percentage variables
+
+$firstPercentage: 15%;
+
+// paragraph mixin
+@mixin paragraph {
+    color: #ffffffd6;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom:10px;
+}
+// btn mixin
+@mixin btn{
+    outline:none;
+    padding:5px 38px;
+    margin:8px;
+    line-height: 24.4px;
+    font-size: 12px;
+    border-radius: 4px;
+}

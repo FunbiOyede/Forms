@@ -38,8 +38,33 @@ body{
     font-weight: lighter;
     line-height: 56px;
     letter-spacing: 0;
-    margin-left: 15%;
+    margin-left: $firstPercentage;
     padding: 10px;
     width: 40%;
     color: $firstHeading;
+}
+
+.paragraph{
+    margin-left: $firstPercentage + 1%;
+    @include paragraph;
+    width: 34%;
+}
+
+.btn{
+    margin-left: $firstPercentage;
+}
+
+.btn-md{
+
+    @include btn;
+    color:#451374;
+    background: $secondBackground;
+    border:2px solid $secondBackground;
+}
+
+.sn-btn-md{
+    @include btn;
+    border:2px solid $secondBackground;
+    background: $thirdBtn;
+    color:#fff;
 }
