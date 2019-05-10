@@ -1,4 +1,6 @@
 @import './variables';
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Lato|Roboto+Mono');
 
 *{
     margin:0;
@@ -6,6 +8,7 @@
 }
 body{
     width:100%;
+    font-family: 'Lato', sans-serif;
 }
 .container{
     background-color: $firstBackground;
