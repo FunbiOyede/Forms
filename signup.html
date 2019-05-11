@@ -27,15 +27,18 @@
             <form action="" class="form">
                 <h3 class="form-heading">Let's Prepare for lunch!</h3>
                 <p class="form-paragraph">Getting started is quick and easy, just fill the forms below</p>
-                <input class="form-input" type="text" name="" placeholder="Name" id=""><br>
-                <input class="form-input" type="email" name="" placeholder="Email Address" id=""><br>
-                <input class="form-input" type="password" name="" placeholder="Password" id=""><br>
-                <input type="checkbox" name="" id=""><i>i agree to</i><b>Terms & Conditions</b><br>
-                <button class="register-btn">Register</button>
+                <input class="form-input" type="text" name="" placeholder="Name" id="name" required><br>
+                <input class="form-input" type="email" name="" placeholder="Email Address" id="email" required><br>
+                <input class="form-input" type="password" name="" placeholder="Password" id="password" pattern=".{8,12}" required title="8 to 12 characters"><br>
+                <input type="checkbox" name="" id="checkbox"><i>i agree to</i><b>Terms & Conditions</b><br>
+                <button class="register-btn" id="register">Register</button>
             </form>
             <p class="form-paragraph">Already have an account? Click <a href="login.html">here</a> to login</p>
         </section>
         </div>
     </div>
+    
+    <script src="./js/sweetalert.js"></script>
+    <script src="./js/Sigup.js"></script>
 </body>
 </html>

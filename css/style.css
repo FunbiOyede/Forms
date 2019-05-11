@@ -175,7 +175,7 @@ a {
 
 .login-heading {
   text-align: center;
-  color: #451374;
+  color: rgba(0, 0, 0, 0.787);
   position: relative;
   left: -29%;
   font-size: 28px;
@@ -216,5 +216,9 @@ a {
   border-radius: 4px;
   position: relative;
   left: -23%;
+}
+
+.swal-button {
+  background-color: #451374;
 }
 /*# sourceMappingURL=style.css.map */
