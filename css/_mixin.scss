@@ -1,4 +1,35 @@
-//for heading\
-@mixin headings {
-    
+@mixin paragraph {
+    color: #ffffffd6;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom:10px;
+}
+// btn mixin
+@mixin btn{
+    outline:none;
+    padding:5px 38px;
+    margin:8px;
+    line-height: 24.4px;
+    font-size: 12px;
+    border-radius: 4px;
+}
+
+// input mixin
+@mixin input {
+    margin-bottom: 18px;
+    margin-top: 5px;
+    width: 100%;
+    border-right:$transparentBtn;
+    border-left: $transparentBtn;
+    border-top: $transparentBtn;
+    border-bottom: 2px solid hsl(213,25%,24%);
+    outline: none;
+    background: $transparentBtn;
+    padding: 7px;
+    vertical-align: middle;
+    line-height: 1.3;
+    color: $primaryColor;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+ 
 }

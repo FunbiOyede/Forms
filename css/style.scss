@@ -1,6 +1,7 @@
 @import './variables';
 @import url('https://fonts.googleapis.com/css?family=Lato');
 @import url('https://fonts.googleapis.com/css?family=Lato|Roboto+Mono');
+@import './mixin';
 
 *{
     margin:0;
@@ -12,7 +13,7 @@ body{
     overflow: hidden;
 }
 .container{
-    background-color: $firstBackground;
+    background-color: $primaryBackground;
     width: 100%;
     height: 100vh;
 }
@@ -43,34 +44,34 @@ body{
     font-weight: lighter;
     line-height: 56px;
     letter-spacing: 0;
-    margin-left: $firstPercentage;
+    margin-left: $percentile;
     padding: 10px;
     width: 40%;
-    color: $firstHeading;
+    color: $primaryHeader;
 }
 
 .paragraph{
-    margin-left: $firstPercentage + 1%;
+    margin-left: $percentile + 1%;
     @include paragraph;
     width: 34%;
 }
 
 .btn{
-    margin-left: $firstPercentage;
+    margin-left: $percentile;
 }
 
 .btn-md{
 
     @include btn;
     color:#451374;
-    background: $secondBackground;
-    border:2px solid $secondBackground;
+    background: $secondaryBackground;
+    border:2px solid $secondaryBackground;
 }
 
 .sn-btn-md{
     @include btn;
-    border:2px solid $secondBackground;
-    background: $thirdBtn;
+    border:2px solid $secondaryBackground;
+    background: $transparentBtn;
     color:#fff;
 }
 
@@ -97,7 +98,7 @@ body{
 .form-input{
     @include input;
     &:focus{
-        border-bottom: 2px solid $firstColor;
+        border-bottom: 2px solid $primaryColor;
       }
 }
 
@@ -109,7 +110,7 @@ i{
 
 b{
     font-size:14px;
-    color:$firstColor;
+    color:$primaryColor;
     margin-left: 2px;
 }
 
@@ -119,13 +120,13 @@ b{
     margin-top: 15px;
     margin-bottom: 10px;
     color:#ffffffd6;
-    background: $firstColor;
-    border: 2px solid $firstColor;
+    background: $primaryColor;
+    border: 2px solid $primaryColor;
     border-radius: 4px;
 }
 a{
     font-size:14px;
-    color:$firstColor;
+    color:$primaryColor;
     margin-left: 2px;
     text-decoration-line: none;
 }
@@ -168,7 +169,7 @@ a{
     padding: 7px;
     vertical-align: middle;
     line-height: 1.3;
-    color: $firstColor;
+    color: $primaryColor;
     font-size: 16px;
     letter-spacing: 0.1em;
     position: relative;
@@ -176,7 +177,7 @@ a{
     margin-bottom:25px;
  
     &:focus{
-        border-bottom: 2px solid $firstColor;
+        border-bottom: 2px solid $primaryColor;
       }
 }
 
@@ -186,13 +187,13 @@ a{
     margin-top: 15px;
     margin-bottom: 10px;
     color:#ffffffd6;
-    background: $firstColor;
-    border: 2px solid $firstColor;
+    background: $primaryColor;
+    border: 2px solid $primaryColor;
     border-radius: 4px;
     position: relative;
     left: -23%;
 }
 
 .swal-button{
-    background-color: $firstColor;
+    background-color: $primaryColor;
 }

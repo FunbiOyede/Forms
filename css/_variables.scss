@@ -1,65 +1,27 @@
-// button colors
-$firstBtn : blue;
-$secondBtn: black;
-$thirdBtn: transparent;
+// button 
+$transparentBtn: transparent;
 
 //random colors
-
-$firstColor:#451374;
+$primaryColor:#451374;
 
 
 //background colors
-$firstBackground: rgb(221, 221, 221);
-$secondBackground: #fff;
-$thirdBackground: #7f53ac;
-$fourthBackground : #647dee;
+$primaryBackground: rgb(221, 221, 221);
+$secondaryBackground: #fff;
+$tetiaryBackground: #7f53ac;
+$pmBackground : #647dee;
 
 //gradients for background
-$backgroundGradients: linear-gradient(315 deg, $thirdBackground 0%, $fourthBackground 74%);
+$backgroundGradients: linear-gradient(315 deg, $tetiaryBackground 0%, $pmBackground 74%);
 
 
 // rgb(221, 221, 221);
 
 // heading colors
-$firstHeading:rgb(255, 241, 241);
+$primaryHeader:rgb(255, 241, 241);
 
 //percentage variables
 
-$firstPercentage: 15%;
+$percentile: 15%;
 
-// paragraph mixin
-@mixin paragraph {
-    color: #ffffffd6;
-    font-size: 16px;
-    line-height: 24px;
-    margin-bottom:10px;
-}
-// btn mixin
-@mixin btn{
-    outline:none;
-    padding:5px 38px;
-    margin:8px;
-    line-height: 24.4px;
-    font-size: 12px;
-    border-radius: 4px;
-}
 
-// input mixin
-@mixin input {
-    margin-bottom: 18px;
-    margin-top: 5px;
-    width: 100%;
-    border-right: transparent;
-    border-left: transparent;
-    border-top: transparent;
-    border-bottom: 2px solid hsl(213,25%,24%);
-    outline: none;
-    background: transparent;
-    padding: 7px;
-    vertical-align: middle;
-    line-height: 1.3;
-    color: $firstColor;
-    font-size: 16px;
-    letter-spacing: 0.1em;
- 
-}
