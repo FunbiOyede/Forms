@@ -8,6 +8,7 @@
 body {
   width: 100%;
   font-family: 'Lato', sans-serif;
+  overflow: hidden;
 }
 
 .container {
@@ -26,7 +27,7 @@ body {
   opacity: 0.9;
   width: 68%;
   float: left;
-  min-height: 98vh;
+  min-height: 100vh;
 }
 
 .form-container {
